@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.header {
+    padding: 20px;
+}
+
+.logo img{
+    width: 180px;
+}
+
+.navbar {
+    padding: 15px 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.soc-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    /* font-weight: 500; */
+    transition: 0.5s;
+}
+
+.soc-links a:hover{
+    color: #f65a5a;
+}
+
+.btnn {
+    display: flex;
+}
+
+.btnn .sign-in, 
+.btnn .sign-up {
+    border: none;
+    background: none;
+    padding: 10px 35px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.btnn .sign-in:hover{
+    color: #f65a5a;
+}
+
+.btnn .sign-up {
+    color: #f53838;
+    border-radius: 25px;
+    border: 2px solid #f65a5a;
+    transition: 0.7s;
+}
+
+.btnn .sign-up:hover{
+    background-color: #f65a5a;
+    color: #ffffff;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 20%;
+    background-color: white;
+}
+
+.hero-cont{
+    max-width: 55%;
+}
+
+.hero-cont h1 {
+    font-size: 56px;
+    color: #000000; 
+    cursor: pointer;
+}
+
+.hero-cont p {
+    margin: 30px 0;
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #000000;
+    line-height: 1.8; 
+    cursor: pointer; 
+}
+
+.btun{
+    display: inline-block;
+    background-color: #f53838;
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 22px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0;
+}
+
+.btun:hover{
+    background-color: #f76464ee;
+}
+
+.hero-img {
+    max-width: 550px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 50px auto;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+}
+
+.stat-icon {
+    background-color: #ffeaea;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.stat-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.stat-text h3 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.stat-text p {
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
