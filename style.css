@@ -10,20 +10,20 @@ body {
     color: #c0bfbf;
 }
 
-.header {
+/* .header {
     padding: 20px;
+} */
+.navbar {
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo img{
     width: 180px;
 }
 
-.navbar {
-    padding: 15px 18%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .soc-links a {
     margin: 0 15px;
@@ -102,7 +102,7 @@ body {
     border-radius: 15px;
     font-size: 22px;
     transition: 0.5s;
-    box-shadow: 0 0 20px 0;
+    box-shadow: 0px 10px 20px 0px rgb(255, 186, 186);
 }
 
 .btun:hover{
@@ -111,6 +111,12 @@ body {
 
 .hero-img {
     max-width: 550px;
+}
+
+.hrr{
+    width: 90px;
+    color: #eeeeee52;
+    transform: rotate(90deg);
 }
 
 .stats-container {
@@ -233,6 +239,7 @@ p {
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    color: #000000;
 }
 
 .pricing-container .description {
@@ -278,6 +285,7 @@ p {
     cursor: pointer;
     margin-bottom: 40px;
     font-weight: 500;
+    color: #000000;
 }
 
 .plan-box ul {
@@ -334,7 +342,6 @@ p {
 }
 
 .illus{
-    height: 520px;
     width: 500px;
 }
 
@@ -469,7 +476,7 @@ p {
     background-color: #ffffff;
     padding: 60px 0;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 2%;
     margin-top: 5%;
     width: 50%;
     box-shadow: 0 0 20px 0 rgba(119, 119, 119, 0.7);
@@ -495,24 +502,24 @@ p {
 }
 
 .subscribe-btn {
-    background-color: #FF4C61;
+    background-color: #F53838;
     color: white;
     padding: 12px 30px;
     margin-left: 55%;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 0 20px 0 rgba(255, 66, 66, 0.4);
+    box-shadow: 0 8px 20px 0 rgba(255, 66, 66, 0.4);
     font-size: 16px;
     transition:  0.3s;
 }
 
-.subscribe-btn:hover {
-    background-color: #ff3333;
+.subscribe-btn:hover{
+    background-color: #f76464ee;
 }
 
+
 footer {
-    background-color: white;
     padding: 40px 0;
     box-shadow: 0 0 20px 0.2 rgba(0, 0, 0, 0.7);
     color: #333;
@@ -593,7 +600,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     font-size: 14px;
-    background-color: #eee;
+    /* background-color: #eee; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -606,4 +613,49 @@ footer {
 
 .did{
     color: #ee5858;
+}
+
+#mark-map{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.mark-usa{
+    top: 49%;
+    left: 52%;
+}
+.mark-ind{
+    top: 25%;
+    left: 17%;
+}
+.mark-pak{
+    top: 5%;
+    left: 35%;
+}
+.mark-ban{
+    top: 21%;
+    left: 54%;
+}
+.mark-eur{
+    top: 13%;
+    left: 75%;
+}
+.mark-eng{
+    top: 53%;
+    left: 29%;
+}
+.mark-ger{
+    top: 13%;
+    left: 7%;
+}
+.mark-uger{
+    top: 33%;
+    left: 70%;
+}
+.mark-meng{
+    top: 63%;
+    left: 82%;
 }
